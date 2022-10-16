@@ -1,0 +1,27 @@
+﻿<!-- 
+    StartupUri's: 
+        Trainings/1_GUI/demo/DemoWindow.xaml
+        Trainings/1_GUI/tasks/Task_1_Window.xaml
+    
+        Trainings/2_EventHandling/demo/DemoWindow.xaml
+        Trainings/2_EventHandling/tasks/Task_1_Window.xaml
+        Trainings/2_EventHandling/tasks/Task_2_Window.xaml
+        Trainings/2_EventHandling/tasks/Task_3_Window.xaml
+        Trainings/2_EventHandling/tasks/Task_4_Window.xaml
+        Trainings/2_EventHandling/tasks/Task_5_Window.xaml
+    
+        Trainings/3_WorkWithStrings/demo/DemoWindow.xaml
+        Trainings/3_WorkWithStrings/tasks/Task_1_Window.xaml
+        Trainings/3_WorkWithStrings/tasks/Task_2_Window.xaml
+        Trainings/3_WorkWithStrings/tasks/Task_3_Window.xaml
+    
+-->
+<Application x:Class="wpf_calculator.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:wpf_calculator"
+             StartupUri="Trainings/1_GUI/demo/DemoWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

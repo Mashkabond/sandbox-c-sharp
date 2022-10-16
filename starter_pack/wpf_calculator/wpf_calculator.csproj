@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>True</UseWPF>
+    <StartupObject>wpf_calculator.App</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="Trainings\1_GUI\tasks\Task_1_Window.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Trainings\2_EventHandling\demo\DemoWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Trainings\2_EventHandling\tasks\Task_1_Window.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Trainings\2_EventHandling\tasks\Task_2_Window.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Trainings\2_EventHandling\tasks\Task_3_Window.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Trainings\2_EventHandling\tasks\Task_4_Window.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Trainings\2_EventHandling\tasks\Task_5_Window.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+  </ItemGroup>
+
+</Project>
